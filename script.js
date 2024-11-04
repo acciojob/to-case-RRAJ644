@@ -1,5 +1,8 @@
 function toCase(text) {
-  // write your code here
+  const lowerCase = text?.toLowerCase()
+  const upperCase = text?.toUpperCase()
+  const ans = lowerCase + '-' + upperCase
+  return ans
 }
 
 // DO not change the code below
